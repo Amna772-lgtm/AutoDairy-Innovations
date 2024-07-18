@@ -1,0 +1,176 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 231);
+}
+
+#ubar {
+    height: 60px;
+    background-color: white;
+    border:2px solid #663D0D;
+    box-shadow: 0 1px 4px rgb(22, 22, 22);
+}
+
+h2 {
+    font-size: 32px;
+    color: #663D0D;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+nav .logo img {
+    margin-top: -38px;
+    height: 50px;
+    width: 65px;
+    color: white;
+    margin-bottom: 0dp;
+    padding: 0dp
+}
+
+.logo ul{
+    list-style-type: none;
+}
+
+.logo li a {
+    position: absolute;
+    color: #663D0D;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: 1024px;
+}
+
+h7{
+    position: absolute;
+    color: #663D0D;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 1252px;
+    margin-top: 6px;
+}
+
+.fa-solid{
+    margin-left: 1230px;
+    margin-top: 8px;
+}
+
+.container {
+    width: 270px;
+    height: 665px;
+    background-color: white;
+    border:3px solid #663D0D;
+    padding: 0%;
+    margin-top: 10dp;
+    box-sizing: border-box;
+    box-shadow: 1px;
+    display: flex;
+    flex-direction: right;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 23px;
+    color:#663D0D;
+
+}
+
+.navbar li a.active{
+    color:#9e9d9d;
+
+}
+
+.navbar ul {
+    margin: 1px;
+    padding: 30px;
+    list-style-type: none;
+    overflow: auto;
+}
+
+.navbar ul ul {
+    list-style-type: circle;
+    color:#663D0D;
+}
+
+nav .logo {
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 32px;
+    color: #663D0D;
+    position: absolute;
+    margin-top: -610px;
+    margin-left: 300px;
+}
+
+#unique {
+    margin-bottom: -15px;
+}
+
+
+h1{
+    display: flex;
+    flex-direction: right;
+    margin-left: 315px;
+    margin-top: -620px;
+    font-size: 35px;
+    color: #663D0D;
+}
+
+
+.report ul{
+    list-style-type: none;
+}
+
+.report li a{
+
+    text-decoration: none;
+    color: #663D0D;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 940px;
+    display: flex;
+    flex-direction: right;
+    margin-top: -53px;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-color: #663D0D;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px rgb(185, 185, 185);
+}
+
+.container-table{
+    position: absolute;
+    width: 50%;
+    margin-top: -550px;
+    margin-left: 365px;
+    display: flex;
+    flex-direction: right;
+}
+      
+
+td {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1%;
+    color: #663D0D;
+    
+}
+
+thead {
+    font-weight:bold;
+   
+}

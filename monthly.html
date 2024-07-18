@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="monthly.css">
+    <script src="https://kit.fontawesome.com/353589d1de.js" crossorigin="anonymous"></script>
+    <title>Monthly Report</title>
+</head>
+
+<body>
+    <nav class="logo">
+
+        <div class="upper-bar" id="ubar">
+            <h2>AutoDairy Innovations</h2>
+            <ul>
+                <li><a href="notification.php" class="btn">Notifications</a></li>
+            </ul>
+            <h7>Admin</h7>
+            <i class="fa-solid fa-user"></i>
+            <div class="logo">
+                <img src="logo3.png">
+            </div>
+        </div>
+    </nav>
+    <div id="unique"><br></div>
+    <nav>
+        <span>
+            <div class="container" id="drawer">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="dashboard.php" class="btn">Dashboard</a></li><br><br>
+                        <li><a href="A-details.php" class="btn">Animal Details</a></li><br><br>
+                        <li><a href="H-record.php" class="btn">Health Record</a></li><br><br>
+                        <li><a href="D-plan.php" class="btn">Diet Plan</a></li><br><br>
+                        <li><a href="M-prod.php" class="btn">Milk Production</a></li><br><br>
+                        <li><a href="report.php" class="btn">Reports</a></li>
+
+                        <ul style="list-style-type:circle">
+                            <li><a href="daily.php" class="btn">Daily</a></li><br>
+                            <li><a href="weekly.php" class="btn">Weekly</a></li><br>
+                            <li><a href="monthly.php" class="btn active">Monthly</a></li><br>
+                            <li><a href="annual.php" class="btn">Annual</a></li>
+                        </ul>
+                        <li><a href="login.php" class="btn">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </span>
+    </nav>
+
+    
+    <div class="container-table">
+        <table>
+            <thead>
+                <tr>
+                    <td>Date</td>
+                    <td>Ear-tag</td>
+                    <td>Name</td>
+                    <td>Milk Production</td>
+                    <td>Diet</td>
+                    <td>Health</td>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="report">
+        <ul>
+            <h1>Monthly Report</h1>
+            <li><a href="manage.html" class="btn">Chart</a></li>
+        </ul>
+    </div>
+</body>
